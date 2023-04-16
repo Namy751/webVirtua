@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #e69244;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 3rem;
+    text-align:justify;
+    color: #f0879b;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1rem !important;
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.title {
+    
+}
+
+.image {
+    height: 25rem;
+    width: 35rem;
+    margin-bottom: 5rem;
+   
+}
+
+
+
+.header-prod-container {
+    margin-bottom: 1rem;
+    display:contents;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+
+
+.container-prod {
+    width: 110rem;
+    height: 65rem;
+    margin: 9.3rem auto 2.7rem;
+    padding: 30px 20px;
+    border: 3px solid #f0879b;
+    backdrop-filter: blur(3px);
+    border-radius: 24px;
+    box-shadow: 5px 5px 3rem;
+    background-color: rgb(255, 255, 255);
+  
+
+}
+
+.content-devices {
+    height: 50rem;
+    
+
+}
+
+.container-prod .content-devices {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    overflow-y:auto;
+    background: linear-gradient(90deg , #e2b6be, #ffffff, #e2b6be);
+}
+
+.content-products {
+    height: 40rem;
+  
+}
+
+.container-prod>div label {
+    display: block;
+}
+.container-prod>div input {
+    all: unset;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #f0879b;
+}
+
+.container-prod button {
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #e69244;
+    border-radius: 10px;
+    font-weight:normal;
+    margin: 0 auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-prod button:hover {
+    outline: 1px solid #e69244;
+    background-color: #fff;
+    color: #e69244;
+}
+
+.photo {
+    height: 13rem;
+    width: 13rem;
+    margin-bottom: 1rem;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+
+.products {
+    width: 33rem;
+    height: 45rem;
+    margin-bottom: 2rem;
+    border:3px solid #f0879b;
+    padding: 1rem 1rem 1rem;
+}
+
+
+.devices {
+    text-align: center;
+    margin-bottom: 3rem;
+    height: 35rem;
+}
+
+
+
+
+

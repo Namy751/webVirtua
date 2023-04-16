@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="Stylesheet"href="estilos.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="login.css" />
+ 
+ 
+<title>SUNSET:LOGIN</title>
+</head>
+<body>
+    <div class="head">
+        <div class="loguito">
+            <a href="index.php"><img src="./images/fondo sun.jpg" alt=""></a>
+    </div>
+  <header>
+    <div class="container">
+        <nav class="nav">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i> <!--AGREGAR ICONOS-->
+                <i class="fas fa-times"></i> <!--AGREGAR ICONOS-->
+            </div>
+            <a href="#" class="Logo sunset"></a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.php" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="registro.html" class="nav-link ">Registro</a>
+                </li>
+                <li class="nav-item">
+                    <a href="productos.html" class="nav-link ">Productos</a>
+                </li>
+           </ul>
+        </nav>
+    </div>
+</div>
+
+   
+   
+</header>
+
+  <form action="login.php" method="post" class="form">
+    <section class="main"> 
+        <figure class="main_figure">
+          <img src="./images/fondo sunset.jpg" class="main_img">
+        </figure>
+    <div class="main_contact">
+    <h1 class="title">Ingresa sesión </h1>
+</div>
+    <div class="email">
+      <label class="label-email" for="correo">Email:</label>
+      <input class="box" type="email" name="correo" id="correo" required placeholder="Ingrese su email" />
+    </div>
+    <div class="password">
+      <label class="label-pass" for="contrasena">Contraseña:</label>
+      <input class="box" type="password" name="contrasena" id="contrasena" required placeholder="Ingrese su contraseña" />
+    </div>
+    
+    <button class="btn" type="submit" name="registrar" id="registrar">INICIAR</button>
+  </form>
+
+    </section>
+  <footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-content-about">
+               </div>
+            <div class="footer-div">
+                <div class="social-media">
+                    <h4>Siguenos en nuestras redes!</h4>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Noticias</h4>
+                    <form action="" class="news-form">
+                        <input type="text" class="news-input"
+                        placeholder="¡Ingresa tu email!"> <!--SE USA EN FORMULARIOS-->
+                        <button class="news-btn" type="submit">
+                            <i class="fas fa-envelope"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+    <script>
+  
+      const selectElement = function(element) {
+          return document.querySelector(element);
+      }
+  
+  
+      let menuToggle = selectElement('.menu-toggle');
+      let body = selectElement('body');
+  
+      menuToggle.addEventListener('click', function(){
+          body.classList.toggle('open');
+      })
+  
+  </script>
+  </body>
+  
+  </html>

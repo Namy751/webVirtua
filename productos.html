@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head >
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset skincare </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="Stylesheet"href="estilos.css"/>
+    <link rel="Stylesheet"href="productos.css"/>
+</head>
+<body>
+    <div class="head">
+        <div class="loguito">
+            <a href="index.php"><img src="./images/fondo sun.jpg" alt=""></a>
+    </div>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i> <!--AGREGAR ICONOS-->
+                    <i class="fas fa-times"></i> <!--AGREGAR ICONOS-->
+                </div>
+                <a href="#" class="Logo sunset"></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.php" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link active">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="registro.html" class="nav-link active">Registrarse</a>
+                    </li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+
+
+<section class="main">
+     <div class="conte">
+        <div class="serum joseon">
+            <img src="./images/serum joseon.jpg"></img>
+        </div> 
+        <div class="informacion">
+            <h1>Beauty by joseon - repair serum </h1>
+        </div>
+        <div class="precio">
+            <div class="box-precio">
+                <span class="precio1">$590</span> <!--span es un contenedor en linea con fines de estilo-->
+                <span class="shopping"><i class="fas fa-cart-plus"></i>
+                
+                </span>
+            </div> 
+        </div>
+     </div>
+     <div class="conte">
+        <div class="cosrx snail">
+            <img src="./images/cosrx snail.jpg"></img>
+        </div> 
+        <div class="informacion">
+            <h1>Advanced Snail Mucin Power Essence</h1>
+        </div>
+        <div class="precio">
+            <div class="box-precio">
+                <span class="precio1">$530</span>
+                <span class="shopping"><i class="fas fa-cart-plus"></i>
+                </span>
+            </div> 
+        </div>
+     </div>
+     <div class="conte">
+        <div class="the ordinary">
+            <img src="./images/NiacinamidaOrdinary.jpg"></img>
+        </div> 
+        <div class="informacion">
+            <h1>The Ordinary Niacinamida 10% + Zinc 1%</h1>
+        </div>
+        <div class="precio">
+            <div class="box-precio">
+                <span class="precio1">$330</span>
+                <span class="shopping"><i class="fas fa-cart-plus"></i>
+                </span>
+            </div> 
+        </div>
+     </div>
+
+     <div class="conte">
+        <div class="serum joseon">
+            <img src="./images/serum joseon.jpg"></img>
+        </div> 
+        <div class="informacion">
+            <h1>Beauty by joseon - repair serum </h1>
+        </div>
+        <div class="precio">
+            <div class="box-precio">
+                <span class="precio1">$590</span> <!--span es un contenedor en linea con fines de estilo-->
+                <span class="shopping"><i class="fas fa-cart-plus"></i>
+                </span>
+            </div> 
+        </div>
+     </div>
+
+</section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-about">
+                   </div>
+                <div class="footer-div">
+                    <div class="social-media">
+                        <h4>Siguenos en nuestras redes!</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Noticias</h4>
+                        <form action="" class="news-form">
+                            <input type="text" class="news-input"
+                            placeholder="¡Ingresa tu email!"> <!--SE USA EN FORMULARIOS-->
+                            <button class="news-btn" type="submit">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+        <script>
+      
+          const selectElement = function(element) {
+              return document.querySelector(element);
+          }
+      
+      
+          let menuToggle = selectElement('.menu-toggle');
+          let body = selectElement('body');
+      
+          menuToggle.addEventListener('click', function(){
+              body.classList.toggle('open');
+          })
+      
+      </script>
+      </body>
+      
+      </html>
